@@ -1,4 +1,4 @@
-
+import "./Nav.css";
 import { Typography } from '@mui/material'
 import React from 'react'
 import AppBar from '@mui/material/AppBar';
@@ -16,10 +16,10 @@ const Navbar = () => {
       <AppBar position="static">
         <Toolbar>
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-            Employee App
+            Blog App
           </Typography>
           <Button color="inherit" variant='outlined'><Link className='linkstyle' to={"/"}>Home</Link></Button> &nbsp;&nbsp;
-          <Button color="inherit" variant='outlined'><Link className='linkstyle' to={"/addemp"}>Add Employee</Link></Button>
+          <Button color="inherit" variant='outlined'><Link className='linkstyle' to={"/addblog"}>Add Blog</Link></Button>
         </Toolbar>
       </AppBar>
     </Box>

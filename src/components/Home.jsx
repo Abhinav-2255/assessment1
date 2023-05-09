@@ -1,14 +1,5 @@
-
-import {
-    Avatar,
-  Button,
-  Card,
-  CardActions,
-  CardContent,
-  Grid,
-  Stack,
-  Typography,
-} from "@mui/material";
+import "./Home.css";
+import { Button, Card, CardActions, CardContent, Grid, Stack, Typography } from "@mui/material";
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 
@@ -21,24 +12,19 @@ const Home = () => {
     });
   }, []);
   return (
-    <div className="maindiv">
+    <div className="cls1">
+      <div className="cls2"></div>
       <Grid container spacing={2} className="maingrid">
         {value.map((val) => (
           <Grid item xs="auto" className="grid">
             <Card className="card" variant="outlined">
               <CardContent className="textalign">
                 <Typography>
-                  <b className="typo">Name : </b> {val.userId}
+                  <b className="typo">Id : </b> {val.id}
                 </Typography>
                 <Typography>
-                  <b className="typo">Age : </b> {val.id}
-                </Typography>
-                <Typography>
-                  <b className="typo">Gender : </b> {val.title}
-                </Typography>
-                <Typography>
-                  <b className="typo">Username : </b> {val.body}
-                </Typography>
+                  <b className="typo">Title : </b> {val.title}
+                  </Typography>
               </CardContent>
               <CardActions>
               </CardActions><br></br>

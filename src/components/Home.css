@@ -1,0 +1,70 @@
+body{
+    height: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url('https://images.pexels.com/photos/346529/pexels-photo-346529.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-size: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0;
+}
+
+.cls1{
+    margin: 20px;
+}
+
+.maingrid{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+
+.grid{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+
+ .card{ 
+    background-image: url("https://dm0qx8t0i9gc9.cloudfront.net/thumbnails/video/itCjTBE/blue-smooth-flowing-waves-on-light-background-video-animation-hd-1920x1080_v1gtgzrrzg_thumbnail-1080_08.png");
+    background-size: cover;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    width: 300px;
+    height: 125px;
+ } 
+
+.card:hover{
+    transform: scale(1.09);
+    transition: all 0.4s ease-in-out;
+}
+
+.textalign{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+.linkstyle1{
+    text-decoration: none;
+    color: rgb(10, 147, 201);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.typo{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.cls2{
+    height: 40px;
+}
