@@ -1,7 +1,7 @@
 body{
     height: 100%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-image: url('https://images.pexels.com/photos/346529/pexels-photo-346529.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-image: url('https://images.unsplash.com/photo-1493723843671-1d655e66ac1c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGJsb2clMjBiYWNrZ3JvdW5kfGVufDB8fDB8fA%3D%3D&w=1000&q=80');
     background-size: cover;
     display: block;
     margin-left: auto;
@@ -33,10 +33,10 @@ body{
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
     margin: 20px;
     display: block;
-    margin-left: auto;
+    margin-left: 25px;
     margin-right: auto;
     align-items: center;
-    width: 300px;
+    width: 325px;
     height: 125px;
  } 
 
